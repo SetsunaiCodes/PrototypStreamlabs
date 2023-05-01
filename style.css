@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3e1c1c;
+}
+.sechead{
+    display: flex;
+    align-items: center;
+}
+.sechead p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+
+}
+.divider{
+    height: 0px;
+    border: 2px solid rgb(221, 78, 12);
+    flex-grow: 1;
+    margin:0 10px;
+}
+.cardsec{
+    display: flex;
+}
+.card{
+    height: 170px;
+    width: 120px;
+    margin: 0 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+header{
+    margin: 0 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.filldiv{
+    flex-grow: 1;
+}
+header p{
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    font-size: 20px;
+    color: white;
+}
+.pb{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-image: url(img/God-of-War-Quiz.jpg);
+    background-position: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.pbbig{
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    background-image: url(img/God-of-War-Quiz.jpg);
+    background-position: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.thenightagent{
+    background-image: url(img/TheNightAgentCard.jpg);
+}
+.arcane{
+    background-image: url(img/ArcaneCard.webp);
+}
+.joker{
+    background-image: url(img/JokerCard.jpg);
+}
+.blackmirror{
+    background-image: url(img/BlackMirrorCard.jpg);
+}
+footer{
+    background-color: #2f1515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: #a4a4a4;
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    color: white;
+}
+.icon p{
+    margin: 0 0 5px 0;
+     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+ion-icon{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.dailyhighlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whatsnew{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    height: 220px;
+    width: 400px;
+    background-image: url(img/TributePanem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+
+}
+.panemlogo{
+    margin-top: -45px;
+    height: 85px;
+    width: 300px;
+    background-image: url(img/Tributelogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circlebtn ion-icon{
+    height: 15px;
+    color: aliceblue;
+}
+.suche{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.suche input{
+    height: 40px;
+    width: 280px;
+    padding: 0 10px;
+    color: white;
+    background-color: #2b1414;
+    border: 2px solid rgb(221, 78, 12);
+    border-radius: 5000px;
+}
+.settingssec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin: 0;
+}
+.tabs p{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.dividersettings{
+    width: 400px;
+    height: 0;
+    border: 2px solid #a4a4a4;
+}
+.settingssec ion-icon{
+    height: 70px;
+    width: 70px;
+    color: #cacaca;
+    margin-bottom: 40px;
+
+}
+.kategoriesec{
+    display: flex;
+    flex-direction: column;
+}
+.kategorie{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d1d1d;
+    color: rgb(230, 230, 230);
+    border: 2px solid rgb(230, 230, 230);
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.useracceditsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addbtn{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(230, 230, 230);
+    align-self: center;
+    background-color: rgb(221, 78, 12);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.pbsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.editpb{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(221, 78, 12);
+    border-radius: 8px;
+    margin-bottom: -30px;
+    margin-left: 100px;
+    z-index: 2;
+}
+.useracceditsec input{
+    color: white;
+    margin: 50px 0;
+    height: 35px;
+    width: 280px;
+    padding: 0 10px;
+    background-color: #1d1d1d;
+    border: 2px solid rgb(221, 78, 12);
+    border-radius: 8px;
+}
+.seriesec{
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seriesec p{
+    font-family: 'Roboto', sans-serif;
+    color: #a4a4a4;
+    margin: 0 5px;
+    text-align: center;
+}
+.serieimg{
+    height: 250px;
+    width: 100%;
+    background-image: url(img/vi_arcane.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.serielogo{
+    height: 50px;
+    width: 250px;
+    margin-top: -35px;
+    background-image: url(img/Arcane_Title_Text.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.navsec{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cacaca;
+}
+.dividersmall{
+    flex-grow: 1;
+    height: 0;
+    margin: 20px;
+    width: 100px;
+    border: 1px solid #cacaca;
+}
+.netflix{
+    height: 50px;
+    width: 50px;
+    background-image: url(img/Netflixicon.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meta{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    color: #cacaca;
+}
+.meta p {
+    margin: 10px 30px;
+}
+.fsk{
+    color: #12c672;
+    padding: 2px;
+    border: 1px solid #12c672;
+    border-radius: 3px;
+}
